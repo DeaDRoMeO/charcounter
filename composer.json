@@ -1,0 +1,25 @@
+{
+	"name": "deadromeo/charcounter",
+	"type": "phpbb-extension",
+	"description": "Расширение добавляет подсчет введенных символов в формах ответа и блокирует кнопку отправки при достижении лимита",
+	"homepage": "http://hello-vitebsk.ru/viewtopic.php?f=208&t=2746",
+	"version": "0.1.0",
+	"time": "2020-11-25",
+	"license": "GPL-2.0",
+	"authors": [{
+			"name": "DeaDRoMeO",
+			"homepage": "http://www.hello-vitebsk.ru",
+			"role": "Developer"
+		}],
+	"require": {
+		"php": ">=5.3.3",
+		"phpbb/phpbb": ">=3.3.0"
+	},
+	"extra": {
+		"display-name": "CharCounter",
+		"soft-require": {
+         "phpbb/phpbb": ">=3.3.0"
+		 }
+	}
+
+}

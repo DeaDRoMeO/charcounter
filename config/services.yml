@@ -1,0 +1,19 @@
+services:
+    deadromeo.charcounter.controller.main:
+        class: deadromeo\charcounter\controller\main_controller
+        arguments:
+            - '@config'
+            - '@controller.helper'
+            - '@template'
+            - '@language'
+
+    deadromeo.charcounter.listener:
+        class: deadromeo\charcounter\event\main_listener
+        arguments:
+            - '@config'
+            - '@language'
+            - '@controller.helper'
+            - '@template'
+            - '%core.php_ext%'
+        tags:
+            - { name: event.listener }
