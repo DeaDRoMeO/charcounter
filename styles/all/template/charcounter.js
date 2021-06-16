@@ -1,6 +1,6 @@
 (function () {
     "use strict";
-	let border = '5px solid red'
+	let border = '5px solid red';
 	let textForm = document.querySelector('#message');
  	let posChar = document.querySelector('.bbcode-status');
 	let submitButton = document.querySelector('[name="post"]');

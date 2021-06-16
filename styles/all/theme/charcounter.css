@@ -1,8 +1,8 @@
-.errorchar{  
-	padding-left: 12px;
-	margin-left: -12px;
-	background-color: red;
-	color: white;
-	padding-bottom: 5px;
-    padding-top: 5px;
+.errorchar {
+  padding-left: 12px;
+  margin-left: -12px;
+  background-color: red;
+  color: white;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
